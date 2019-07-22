@@ -67,7 +67,7 @@ Usage instructions:
 
 	2.2.2 Run the program
 
-            python ./run_E2T_FB.py
+        python ./run_E2T_FB.py
 
 	    python ./run_E2T_TRT_FB.py
 

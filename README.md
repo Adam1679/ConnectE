@@ -27,7 +27,7 @@ Usage instructions:
         1.1.4 ./run_E2T_TRT_YAGO.py (for our E2T-TRT model on YAGO43k dataset)
 
 	1.1.5 ./config/*/config.json 
-	
+
 		All the files in the config directory are related to the parameter setup for the very model. For example, file "./config/FB15k/E2T/config.json" is for the parameter setup of the E2T model on the YAGO43k dataset.
 
 * 1.2 Parameter setup
@@ -63,7 +63,7 @@ Usage instructions:
 
 	    python ./data/FB15k/prepare_data_FB.py
 
-	    python ./data/YAGO/prepare_data_FB.py
+	    python ./data/YAGO/prepare_data_YAGO.py
 
 	2.2.2 Run the program
 

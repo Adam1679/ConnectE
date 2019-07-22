@@ -1,0 +1,9 @@
+{"nbatch":20,
+    "learning_rate":0.1,
+    "entity_dim":200,
+    "type_dim":100,
+    "norm":"L2",
+    "margin":2,
+    "evaluator":"Type_Evaluator",
+    "evaluator_time":200
+}

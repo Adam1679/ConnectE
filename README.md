@@ -2,9 +2,9 @@
 
 This repository holds the code and datasets for experiments in the paper (Please, cite these publication if you use our source codes and datasets)
 
-There are three kinds of inference of missing data in a knowledge graph: 1) missing entity, 2) missing relation type and 3) missing entity type
+There are three kinds of inference of missing data in a knowledge graph: 1) missing entity, 2) missing relation type and 3) missing entity type. Our code implement a E2T model and a E2T_TRT model to improve missing entity type prediction performance.
 
-Author: Changsung Moon (cmoon2@ncsu.edu)
+Author: Adam Zhang (anxiangz@andrew.cmu.edu)
 
 Dependency Requirements: Python==3.7
 

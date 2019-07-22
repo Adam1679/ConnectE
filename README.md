@@ -27,21 +27,21 @@ Usage instructions:
         1.1.4 ./run_E2T_TRT_YAGO.py (for our E2T-TRT model on YAGO43k dataset)
 
 	1.1.5 ./config/*/config.json 
-
+	
 		All the files in the config directory are related to the parameter setup for the very model. For example, file "./config/FB15k/E2T/config.json" is for the parameter setup of the E2T model on the YAGO43k dataset.
 
 * 1.2 Parameter setup
 
-	All the files in the "config" directory contains the default parameter setup we use to train the model. For each parameter, the explanation is following:
+		All the files in the "config" directory contains the default parameter setup we use to train the model. For each parameter, the explanation is following:
 
-- nbatch: number of batches to train in one epoch. Generally, we use vectorization mechanism to speed up the training process. If you increase this parameter, then it means you train more batches in one round of training. Consequently, you have to simultaneously calculate a larger matrix in on batch.(For all our model, the default value is 20.)
-- learning_rate: the learning rate of the training model. (For all our model, the default value is 0.1.)
-- entity_dim: the dimension of the entity/relation vector.
-- type_dim: the dimension of the type vector.
-- norm: the kind of norm we use to implement the loss function. (For all our model, we use L2 norm.)
-- margin: Margin for loss function.
-- evaluator: the kind of evaluator to use when evaluating the model. (We only implement type prediction evaluator, which is "Type_Evaluator")
-- evaluator_time: number of epochs to train before one evaluation of the whole test sample. 
+		- nbatch: number of batches to train in one epoch. Generally, we use vectorization mechanism to speed up the training process. If you increase this parameter, then it means you train more batches in one round of training. Consequently, you have to simultaneously calculate a larger matrix in on batch.(For all our model, the default value is 20.)
+		- learning_rate: the learning rate of the training model. (For all our model, the default value is 0.1.)
+		- entity_dim: the dimension of the entity/relation vector.
+		- type_dim: the dimension of the type vector.
+		- norm: the kind of norm we use to implement the loss function. (For all our model, we use L2 norm.)
+		- margin: Margin for loss function.
+		- evaluator: the kind of evaluator to use when evaluating the model. (We only implement type prediction evaluator, which is "Type_Evaluator")
+		- evaluator_time: number of epochs to train before one evaluation of the whole test sample. 
 
   \2. Inference of missing entity type (ETE model)
 

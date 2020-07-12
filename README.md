@@ -1,4 +1,4 @@
-*Note* Still Updating. In the paper, we have updated the naming of some models and also, we do some small modifications for some model and data preprocessing (but it would not affect the performance too much according to the results.)
+**Note** Sorry for the inconvenience. Due to some reasons, the author of this repo is too busy to clean the new version source code currently. He would update this repo once have time. Generally, the differences between the current version and the new version are about naming of some models some trivial modifications for some model and data preprocessing (It would not affect the performance too much according to the expiriments.)
 
 # Knowledge Graph Completion
 

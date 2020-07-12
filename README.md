@@ -1,3 +1,5 @@
+*Note* Still Updating. In the paper, we have updated the naming of some models and also, we do some small modifications for some model and data preprocessing (but it would not affect the performance too much according to the results.)
+
 # Knowledge Graph Completion
 
 This repository holds the code and datasets for experiments in the paper (Please, cite these publication if you use our source codes and datasets)

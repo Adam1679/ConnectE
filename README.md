@@ -1,5 +1,3 @@
-**Note** Sorry for the inconvenience. Due to some reasons, the author of this repo is too busy to clean the new version source code currently. He would update this repo once have time. Generally, the differences between the current version and the new version are about naming of some models some trivial modifications for some model and data preprocessing (It would not affect the performance too much according to the expiriments.)
-
 # Knowledge Graph Completion
 
 This repository holds the code and datasets for experiments in the paper (Please, cite these publication if you use our source codes and datasets)
@@ -80,5 +78,6 @@ Usage instructions:
 	    python ./run_E2T_TRT_YAGO.py
 
 
+**Note** Sorry for the inconvenience. Due to some reasons, the author of this repo is too busy to clean the new version source code currently. He would update this repo once have time. Generally, the differences between the current version and the new version are about naming of some models some trivial modifications for some model and data preprocessing (It would not affect the performance too much according to the expiriments.)
 
 

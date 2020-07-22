@@ -8,6 +8,8 @@ There are three kinds of inference of missing data in a knowledge graph: 1) miss
 
 Author: Adam Zhang (anxiangz@andrew.cmu.edu)
 
+Paper: https://www.aclweb.org/anthology/2020.acl-main.572/
+
 Dependency Requirements: Python==3.7
 
 The source codes are modified versions from original source code from 
